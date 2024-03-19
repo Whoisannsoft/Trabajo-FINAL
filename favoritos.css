@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-color: #1F0329;
+  }
+  
+  .container {
+      max-width: 120px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #BB1640;
+      height: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center; 
+    background-color: #BB1640;
+    padding: 20px; 
+    max-height: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .logo, .usuario, .barra-busqueda {
+    flex: 1; 
+    margin: 10px;
+  }
+  
+  .barra-navegacion a:hover {
+    color:#80384b; 
+  }
+  
+  .logo {
+    flex:   auto;
+  }
+  
+  .usuario {
+    flex:   auto;
+  }
+  
+  .barra-busqueda input[type="search"] {
+    width: 100%; 
+    padding: 5px;
+    margin: auto; 
+    border: 1px solid white;
+    border-radius: 7px;
+  }
+  .menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .menu li {
+    padding: 14px 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
