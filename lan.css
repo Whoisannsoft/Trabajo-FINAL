@@ -1,178 +1,120 @@
 
-body {
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #1F0329;
     color: white;
+  }
 
-    }
+  .primerbanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: transparent;
+    border: 0px;
+    height: 750px;
+    margin-top: 0px;
+    background-image: url("/img\ fondo\ lan.png");
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .portalrym {
+    width: 300px;
+    height: 600px;
+  }
+
+  .nombrelg {
+    background-color: transparent;
+    padding: 0%;
+    border: 0px;
+    margin: 40px;
+  }
 
 
+  h5 {
+    color: white;
+    align-items: left;
+    justify-content: left;
+    background-color:transparent;
+    font-size: 17px;
+    background-color: transparent;
+    width: 500px;
+    height: 100px;
+    margin-left: 40px;
+    font-family: Arial, sans-serif;    
+  }
 
-
-
-
-
-
-    .primerbanner {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: left;
-        background-color: transparent;
-        border: 0px;
-        height: 750px;
-        margin-top: 0px;
-        background-image: url("/img\ fondo\ lan.png");
-        background-position: center top; 
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  .navbar {
     
-    .portalrym {
-        width: 300px;
-        height: 600px;
-    }
-    
-    
-    .nombrelg {
-        background-color: transparent;
-        padding: 0%;
-        border: 0px;
-        margin: 40px;
-    }
-    
-    
-    
-    h5 {
-        color: white;
-        align-items: left;
-        justify-content: left;
-        background-color:transparent;
-        font-size: 17px;
-        background-color: transparent;
-        width: 500px;
-        height: 100px;
-        margin-left: 40px;
-        font-family: Arial, sans-serif;
-        
-    }
-    
-    
+    display: flex;
+    align-items: center; 
+    background-color: #BB1640;
+    padding: 20px; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
 
+  .logo, .usuario, .barra-busqueda {
+    margin: 10px;
+  }
 
+  .logo, .usuario {
+    flex: auto;
+  }
 
+  .barra-busqueda input[type="search"] {
+    width: 100%; 
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 7px;
+  }
 
+  .menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex: 2;
+  }
 
+  .menu li {
+    padding: 14px 20px;
+  }
 
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
 
+  .titulogaleria {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .navbar {
-        display: flex;
-        align-items: center; 
-        background-color: #BB1640;
-        padding: 20px; 
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-      }
-      
-      .logo, .usuario, .barra-busqueda {
-        flex: 1; 
-        margin: 10px;
-      }
-      
-      .logo {
-        flex:   auto;
-      }
-      
-      .usuario {
-        flex:   auto;
-      }
-      
-      .barra-busqueda input[type="search"] {
-        width: 100%; 
-        padding: 5px;
-        margin: auto; 
-        border: 1px solid white;
-        border-radius: 7px;
-      }
-      
-      .menu {
-        list-style-type: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        flex: 2;
-      }
-      
-      .menu li {
-        padding: 14px 20px;
-      }
-      
-      .menu li a {
-        text-decoration: none;
-        color: white;
-        display: block;
-      }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-      .titulogaleria {
-        display: flex;
-        flex-direction: row;
-        color: white;
-        background-color: transparent;
-        align-items: center;
-        justify-content: center;
-        width: 700px;
-        padding: 10px;
-        margin: auto;
-        font-family: Arial, sans-serif;
-    }
-    
-    .titulogal {
-        display: flex; 
+  .titulogal {
+    display: flex; 
     align-items: center; 
     justify-content: center;
     font-size: 60px;
     text-align: center; 
     height: 100px; 
     width: 100%; 
-    }
-    
-    
+  }
+
     
     .carousel-wrapper {
         height: 500px;
