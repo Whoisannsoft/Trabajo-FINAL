@@ -1,6 +1,9 @@
 body {
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  background-color: #1F0329;
     
 }
 
@@ -15,39 +18,74 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
-
-
-.barra-navegacion img {
-  height: 40px; 
+.navbar {
+  display: flex;
+  align-items: center; 
+  background-color: #BB1640;
+  padding: 20px; 
+  font-family: Arial, sans-serif;
+  font-size: 20px;
 }
 
-.barra-navegacion a {
-  color: white; /* Color del texto */
-  text-decoration: none; /* Quitamos la subraya del texto */
-  margin: 0 10px; /* Espaciado horizontal entre elementos */
+.logo, .usuario, .barra-busqueda {
+  flex: 1; 
+  margin: 10px;
+}
+.barra-navegacion a:hover {
+  color:#5D1125; 
 }
 
-.barra-navegacion input[type="text"] {
+.logo {
+  flex:   auto;
+}
+
+.usuario {
+  flex:   auto;
+}
+
+.barra-busqueda input[type="search"] {
+  width: 100%; 
   padding: 5px;
-  border-radius: 3px;
-  border: none;
-  margin-right: 10px; /* Espaciado entre el campo de búsqueda y la imagen de usuario */
+  margin: auto; 
+  border: 1px solid white;
+  border-radius: 7px;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  flex: 2;
 }
 
-.barra-navegacion input[type="text"]::placeholder {
-  color: white; /* Color del placeholder del campo de búsqueda */
+.menu li {
+  padding: 14px 20px;
 }
 
-.barra-navegacion input[type="text"]:focus {
-  outline: none; /* Quitamos el borde al enfocar */
+.menu li a {
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 
-.barra-navegacion img.bolitausuario {
-  height: 30px; /* Altura de la imagen de usuario */
-  border-radius: 50%; /* Para que sea un círculo */
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .contenedorcont{
     width: 100%;
