@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    text-align: center;
 }
 
 .login-container h2 {
@@ -33,7 +34,7 @@ body {
 }
 
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 250px;
     justify-content: center;
 }
@@ -65,7 +66,19 @@ button {
     
 }
 
-button:hover {
-    background-color: #fff;
-    color: #E0013D;
+.login-container p {
+    margin-top: 15px; 
+    font-size: 13px;
+    color:#ffffff
+    
 }
+
+.login-container p a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.login-container p a:hover {
+    text-decoration: underline; 
+}
+
