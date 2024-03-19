@@ -9,9 +9,83 @@ body {
 
 
 
+
+
+
+
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    background-color: #BB1640;
+    padding: 20px; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .logo, .usuario, .barra-busqueda {
+    flex: 1; 
+    margin: 10px;
+  }
+  
+  .logo {
+    flex:   auto;
+  }
+  
+  .usuario {
+    flex:   auto;
+  }
+  
+  .barra-busqueda input[type="search"] {
+    width: 100%; 
+    padding: 5px;
+    margin: auto; 
+    border: 1px solid white;
+    border-radius: 7px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .menu li {
+    padding: 14px 20px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .titulo-centrado{
     text-align: center;
     font-family: Arial, sans-serif;
+    font-size: 40px;
 }
 
 
