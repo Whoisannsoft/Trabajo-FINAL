@@ -15,7 +15,7 @@ body {
     box-shadow: 0 2px 5px rgba(255, 254, 254, 0.1);
     padding: 20px;
     width: 300px;
-    height: 400px;
+    height: 350px;
     display: flex; 
     flex-direction: column;
     justify-content: center; 
@@ -27,11 +27,15 @@ body {
     text-align: center;
     justify-content: center; 
 }
+.login-container .logo {
+    width: 250px;
+    margin-bottom: 40px;
+}
 
 .input-group {
     margin-bottom: 20px;
     width: 300px;
-    
+    justify-content: center;
 }
 
 
