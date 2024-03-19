@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;
+    text-align: center;
 }
 
 .login-container h2 {
@@ -68,4 +69,20 @@ button {
 button:hover {
     background-color: #fff;
     color: #E0013D;
+}
+
+.login-container p {
+    margin-top: 15px; 
+    font-size: 13   px;
+    color:#ffffff
+    
+}
+
+.login-container p a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.login-container p a:hover {
+    text-decoration: underline; 
 }
