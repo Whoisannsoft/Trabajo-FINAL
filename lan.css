@@ -238,137 +238,55 @@
 
 
 
+ 
 
 
 
-    .titulonosotros {
 
-        background-color: transparent;
-        margin:auto;
-        margin-bottom: 0px;
-        width: 700px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding:0px;
-        font-family: Arial, sans-serif;
-        font-size: 30px;
-    }
-    
-    .fotosperfiles {
-      margin: 40px;
-      
-      
-    }
-    
-    .fotos {
-        background-color: transparent;
-        height: 200px;
-        width: 1020px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin: auto;
-        margin-top: 5px;
-        padding: 0;
-    
-    }
-    
-    .perfil {
-        width: 180px;
-        height: 180px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    
-    }
-    
-    .nombreperfiles {
-      background-color:transparent;
-      height: 50px;
-      width: 2190px;
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      justify-content: space-around;
-      margin: auto;
-    
-    }
-    .nombre {
-      background-color: transparent;
-      width: 200px;
-      height: 200px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 800px;
-    
-    }
-    
-    h3 {
-        
-      font-family: Arial, sans-serif;
-      font-size: 30px;
-      font-style: bold;
+    .sobre-nosotros {
       text-align: center;
-      margin: auto;
-    }
-    
-    
-    .textoperfiles {
+      color: white;
       background-color: transparent;
-      display: flex;
-      flex-direction: row;
-      width: 1000px;
-      justify-content: space-around;
-      align-items: center;
-      margin: auto;
-      padding: 10px;
-      margin-left: 80px;
-    
-    
-    }
-    
-    .textoo{
-      background-color: transparent;
-      width: 200px;
-      height: 200px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 2px;
-    }
-    
-    p {
-      text-align: center;
+      padding: 40px 0;
       font-family: Arial, sans-serif;
-      font-size: 18px;
-    
     }
-     
     
-
-
-
-
-  .perfil2 {
-    width: 180px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .perfil1 {
-    width: 180px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-
+    .sobre-nosotros h2 {
+      font-size: 50px; 
+      margin-bottom: 20px;
+      font-family: Arial, sans-serif;
+    }
+    
+    .tarjetas-container {
+      display: flex;
+      justify-content: space-around; 
+      align-items: center;
+    }
+    
+    .tarjeta {
+      background-color: #2D043C; 
+      border-radius: 20px; 
+      width: 250px; 
+      padding: 20px;
+      box-shadow: 4px 8px #1F0329
+      
+    }
+    
+    .tarjeta img {
+      border-radius: 10px; 
+      margin-bottom: 10px;
+    }
+    
+    .tarjeta h3 {
+      font-size: 30px; 
+      margin-bottom: 10px;
+    }
+    
+    .tarjeta p {
+      font-size: 20px; 
+      color: #EDEDED;
+    }
+    
 
 
 
@@ -432,7 +350,7 @@
   .contenedorcont{
     width: 100%;
     height: 80px;
-    background-color: transparent;
+    background-color: #BB1640;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -549,4 +467,78 @@
   
   }
 
+
+
+
+
+
+
+
+
+  .contact-section {
+    background-color: #BB1640; /* Ajusta el color de fondo según tu diseño */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 24px; /* Ajusta el tamaño según tu diseño */
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /* Ajusta el espacio entre íconos */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: white; /* Ajusta el color del texto de los enlaces */
+  }
+  
+  .social-link img {
+    width: 24px; /* Ajusta el tamaño de tus íconos */
+    height: 24px; /* Ajusta el tamaño de tus íconos */
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+  }
+  
+
+  .contact-section {
+    background-color: #BB1640; /* Ajusta el color de fondo según tu diseño */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 24px; /* Ajusta el tamaño según tu diseño */
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    margin: 0 10px; /* Ajusta el espacio entre íconos */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: white; /* Ajusta el color del texto de los enlaces */
+  }
+  
+  .social-link img {
+    width: 24px; /* Ajusta el tamaño de tus íconos */
+    height: 24px; /* Ajusta el tamaño de tus íconos */
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+  }
   
