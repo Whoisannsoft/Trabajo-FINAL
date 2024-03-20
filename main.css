@@ -67,6 +67,18 @@ body {
 
 
 
+ .logote{
+
+  text-align: center;
+
+ }
+
+.logo arriba{
+    display: flex;
+    justify-content: center;
+    
+  }
+
 
 
 
