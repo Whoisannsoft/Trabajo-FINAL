@@ -21,6 +21,7 @@ body {
     justify-content: center; 
     align-items: center;
     text-align: center;
+
 }
 
 .login-container h2 {
@@ -53,6 +54,8 @@ body {
     border-radius: 5px;
     border: 1px solid #ccc;
     color: #51036D;
+    
+
 }
 
 button {
@@ -73,7 +76,7 @@ button:hover {
 
 .login-container p {
     margin-top: 15px; 
-    font-size: 13   px;
+    font-size: 13px;
     color:#ffffff
     
 }
