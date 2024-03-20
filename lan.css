@@ -475,70 +475,129 @@
 
 
 
-  .contact-section {
-    background-color: #BB1640; /* Ajusta el color de fondo según tu diseño */
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .contact-section h2 {
-    margin: 0;
-    padding-bottom: 20px;
-    font-size: 24px; /* Ajusta el tamaño según tu diseño */
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .social-link {
-    display: flex;
-    align-items: center;
-    margin: 0 10px; /* Ajusta el espacio entre íconos */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: white; /* Ajusta el color del texto de los enlaces */
-  }
-  
-  .social-link img {
-    width: 24px; /* Ajusta el tamaño de tus íconos */
-    height: 24px; /* Ajusta el tamaño de tus íconos */
-    margin-right: 8px; /* Espacio entre el ícono y el texto */
-  }
-  
+  .cuartobanner {
 
-  .contact-section {
-    background-color: #BB1640; /* Ajusta el color de fondo según tu diseño */
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .contact-section h2 {
-    margin: 0;
-    padding-bottom: 20px;
-    font-size: 24px; /* Ajusta el tamaño según tu diseño */
-  }
-  
-  .social-links {
+    background-color: #BB1640;
+    height: 400PX;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .contenedorcont{
+    width: 100%;
+    height: 60px;
+    background-color: #BB1640;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
+    margin-top: 40px;
+  
   }
   
-  .social-link {
+  .titulocontacto {
+  
     display: flex;
+    color: white;
+    background-color: transparent;
     align-items: center;
-    margin: 0 10px; /* Ajusta el espacio entre íconos */
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: white; /* Ajusta el color del texto de los enlaces */
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+  
   }
   
-  .social-link img {
-    width: 24px; /* Ajusta el tamaño de tus íconos */
-    height: 24px; /* Ajusta el tamaño de tus íconos */
-    margin-right: 8px; /* Espacio entre el ícono y el texto */
+  .titulocont {
+  
+    align-items: center;
+      justify-content: center;
+      font-size: 50px;
   }
   
+  .contact1 {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 1200px;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .contact2 {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 900px;
+    color: white;
+  }
+  
+  .cajaicono {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .botonIG{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-color: transparent;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+  
+  }
+  
+  .icono {
+    height: 80px;
+    width: 80px;
+    display: flex;
+  }
+  
+  .cajaemail{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  
+  .boticonom {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  
+  }
