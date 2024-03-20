@@ -14,10 +14,11 @@
     justify-content: left;
     background-color: transparent;
     border: 0px;
-    height: 750px;
+    height: 700px;
     margin-top: 0px;
     background-image: url("/img\ fondo\ lan.png");
     background-position: center top; 
+    
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -92,6 +93,28 @@
     display: block;
   }
 
+
+  .descubrir-button {
+    background-color: #BB1640;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+  }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   .titulogaleria {
     display: flex;
     flex-direction: row;
@@ -113,10 +136,9 @@
     text-align: center; 
     height: 100px; 
     width: 100%; 
-  }
-
-    
-    .carousel-wrapper {
+  } 
+  
+  .carousel-wrapper {
         height: 500px;
         position: relative;
         width: 900px;
@@ -222,7 +244,7 @@
     .titulonosotros {
 
         background-color: transparent;
-        margin-top: 100px;
+        margin:auto;
         margin-bottom: 0px;
         width: 700px;
         height: 100px;
@@ -235,7 +257,7 @@
     }
     
     .fotosperfiles {
-      margin-top: 0px;
+      margin: 40px;
       
       
     }
@@ -280,7 +302,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 20px;
+      margin-left: 800px;
     
     }
     
@@ -303,6 +325,7 @@
       align-items: center;
       margin: auto;
       padding: 10px;
+      margin-left: 80px;
     
     
     }
@@ -329,7 +352,21 @@
 
 
 
+  .perfil2 {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
+  .perfil1 {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
 
 
@@ -385,7 +422,9 @@
     flex-wrap: wrap;
     align-items: center;
     align-items: flex-start;
-    margin-top: 800px;
+    margin-top: auto;
+    margin-right: 3250px;
+    
     
 
    
@@ -395,7 +434,7 @@
     height: 80px;
     background-color: transparent;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: left;
     align-items: flex-start;
     margin-top: 0px;
