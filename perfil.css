@@ -28,7 +28,6 @@ body {
     border: none;
 }
 
-/* Estilos de la sección de contenedores */
 .contenedor {
     display: flex;
     justify-content: center;
@@ -45,7 +44,6 @@ body {
     align-items: flex-start;
 }
 
-/* Estilos de los botones */
 button {
     padding: 10px 20px;
     background-color: #BB1640;
@@ -56,13 +54,6 @@ button {
     margin: 0 10px;
 }
 
-/* Estilos del pie de página */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
 
 .redes.Sociales {
     display: flex;
@@ -70,11 +61,7 @@ footer {
     align-items: center;
 }
 
-.redes.Sociales img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
+
 
 .redes.Sociales a {
     color: white;
@@ -84,7 +71,6 @@ footer {
 
 .tarjeta {
     background-color: #2D043C;
-    color: white;
     padding: 20px;
     border-radius: 10px;
     max-width: 500px; 
@@ -92,6 +78,9 @@ footer {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
+    max-width: 450px;
+    margin: 0 auto;
+   
 }
 
 .tarjeta .contenedor-botones {
@@ -121,6 +110,36 @@ footer {
     margin: 49px;
 }
 
+        .contenedor {
+          margin: 0 auto;
+          padding: 20px;
+          border-radius: 20px;
+          background-color: #1F0329;
+      }
+    
+    
+      .contenedor input[type="text"],
+      .contenedor input[type="email"],
+      .contenedor input[type="password"] {
+          width: 100%;
+          padding: 8px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+      }
+      .contenedor input[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      .contenedor input[type="submit"]:hover {
+          background-color: #45a049;
+      }
+
 button {
     padding: 10px 20px;
     background-color: #BB1640;
@@ -131,9 +150,7 @@ button {
     margin: 0 10px;
 }
 
-button:hover {
-    background-color: #BB1640;
-}
+
 
 
 .imagen-libre {
