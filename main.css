@@ -74,147 +74,57 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-.titulo-centrado{
+  .sobre-nosotros {
     text-align: center;
+    color: white;
+    background-color: transparent;
+    padding: 40px 0;
     font-family: Arial, sans-serif;
-    font-size: 40px;
-}
-
-
-
-
-.apartado {
+  }
+  
+  .sobre-nosotros h2 {
+    font-size: 50px; 
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tarjetas-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .tarjeta {
     background-color: #2D043C; 
-    border-radius: 8px; 
-    padding: 10px;
-    box-shadow: 0 2px 4px #0A000D; 
-    flex-grow: 1; 
-    margin: 4px
-  }
-
-  .contenedor-apartados {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-  }
-  
-
-
-
-
-
-  .titulonosotros {
-
-    background-color: transparent;
-    margin-top: 150px;
-    margin-bottom: 0px;
-    width: 700px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:0%;
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-}
-
-.fotosperfiles {
-  margin-top: 0px;
-  
-  
-}
-
-.fotos {
-    background-color: transparent;
-    height: 200px;
-    width: 1020px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-    margin-top: 5px;
-    padding: 0;
-
-}
-
-.perfil {
-    width: 180px;
-    height: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.nombreperfiles {
-  background-color:transparent;
-  height: 50px;
-  width: 1020px;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
-
-}
-.nombre {
-  background-color: transparent;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-
-}
-
-h3 {
+    border-radius: 20px; 
+    width: 250px; 
+    padding: 20px;
+    box-shadow: 4px 8px #1F0329
     
-    font-family: Arial, sans-serif;
-  font-size: 30px;
-  font-style: bold;
-  text-align: center;
-}
+  }
+  
+  .tarjeta img {
+    border-radius: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta h3 {
+    font-size: 30px; 
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta p {
+    font-size: 20px; 
+    color: #EDEDED;
+  }
 
 
-.textoperfiles {
-  background-color: transparent;
-  display: flex;
-  flex-direction: row;
-  width: 1000px;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
-  padding: 10px;
 
 
-}
 
-.textoo{
-  background-color: transparent;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
 
-p {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
 
-}
- 
+
 
 
 
