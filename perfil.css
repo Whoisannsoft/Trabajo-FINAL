@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+.barra-navegacion {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.barra-navegacion a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.barra-navegacion input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Estilos de la sección de contenedores */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grande {
+    flex-direction: column;
+    align-items: center;
+}
+
+.chiquito {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Estilos de los botones */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes.Sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes.Sociales img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.redes.Sociales a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.tarjeta {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px; /* Ancho máximo de la tarjeta */
+    margin: auto; /* Centrar horizontalmente */
+    display: flex; /* Usar flexbox para centrar verticalmente */
+    flex-direction: column; /* Alinear elementos verticalmente */
+    align-items: center; /* Alinear elementos horizontalmente */
+}
+
+.tarjeta .contenedor-botones {
+    display: flex;
+    justify-content: center; /* Mover botones a la derecha */
+    width: 100%; /* Para que los botones ocupen todo el ancho */
+}
+
+
+.tarjeta img {
+    max-width: 108%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contenedor.grande {
+    flex-direction: column;
+}
+
+.contenedor.chiquito form div {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.imagen-libre {
+    width: 8%;
+    position: absolute;
+    top: 260px;
+    left: 500px;
+}
