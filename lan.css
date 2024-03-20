@@ -7,6 +7,25 @@
     color: white;
   }
 
+  .barra-navegacion {
+    background-color: #BB1640;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: auto;
+  }
+  
+  .barra-navegacion a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    margin-left: 90px;
+  }
+  
+  
+  
+ 
   .primerbanner {
     display: flex;
     flex-direction: row;
