@@ -3,21 +3,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1F0329;
 }
 
-/* Estilos de la barra de navegación */
 .barra-navegacion {
-    background-color: #333;
+    background-color: #BB1640;
     color: white;
     display: flex;
     align-items: center;
     padding: 10px;
+    margin-left: auto;
 }
 
 .barra-navegacion a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+    margin-left: 90px;
 }
 
 .barra-navegacion input[type="text"] {
@@ -46,7 +48,7 @@ body {
 /* Estilos de los botones */
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #BB1640;
     color: white;
     border: none;
     border-radius: 5px;
@@ -81,21 +83,21 @@ footer {
 }
 
 .tarjeta {
-    background-color: purple;
+    background-color: #2D043C;
     color: white;
     padding: 20px;
     border-radius: 10px;
-    max-width: 500px; /* Ancho máximo de la tarjeta */
-    margin: auto; /* Centrar horizontalmente */
-    display: flex; /* Usar flexbox para centrar verticalmente */
-    flex-direction: column; /* Alinear elementos verticalmente */
-    align-items: center; /* Alinear elementos horizontalmente */
+    max-width: 500px; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .tarjeta .contenedor-botones {
     display: flex;
-    justify-content: center; /* Mover botones a la derecha */
-    width: 100%; /* Para que los botones ocupen todo el ancho */
+    justify-content: center; 
+    width: 100%; 
 }
 
 
@@ -116,11 +118,12 @@ footer {
 
 .contenedor.chiquito form div {
     margin-bottom: 10px;
+    margin: 49px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #BB1640;
     color: white;
     border: none;
     border-radius: 5px;
@@ -129,7 +132,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #BB1640;
 }
 
 
@@ -139,3 +142,147 @@ button:hover {
     top: 260px;
     left: 500px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cuartobanner {
+
+    background-color: #BB1640;
+    height: 400PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .contenedorcont{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  
+  }
+  
+  .titulocontacto {
+  
+    display: flex;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+  
+  }
+  
+  .titulocont {
+  
+    align-items: center;
+      justify-content: center;
+      font-size: 50px;
+  }
+  
+  .contact1 {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 1200px;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .contact2 {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 900px;
+    color: white;
+  }
+  
+  .cajaicono {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .botonIG{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-color: transparent;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+  
+  }
+  
+  .icono {
+    height: 80px;
+    width: 80px;
+    display: flex;
+  }
+  
+  .cajaemail{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  
+  .boticonom {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  
+  }
