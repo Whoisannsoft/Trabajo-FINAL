@@ -69,6 +69,10 @@ button {
     
 }
 
+button:hover {
+    background-color: #fff;
+    color: #E0013D;
+}
 
 .login-container p {
     margin-top: 15px; 
@@ -77,3 +81,11 @@ button {
     
 }
 
+.login-container p a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.login-container p a:hover {
+    text-decoration: underline; 
+}

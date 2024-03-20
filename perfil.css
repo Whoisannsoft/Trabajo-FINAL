@@ -58,20 +58,6 @@ button {
 
 
 
-.redes.Sociales {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-.redes.Sociales a {
-    color: white;
-    text-decoration: none;
-    margin: 5px;
-}
-
 .tarjeta {
     background-color: #2D043C;
     padding: 20px;

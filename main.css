@@ -6,6 +6,43 @@ body {
     background-color: #1F0329;
 }
 
+.barra-navegacion {
+  background-color: #BB1640;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: auto;
+}
+
+.barra-navegacion a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  margin-left: 90px;
+}
+
+.barra-navegacion input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grande {
+  flex-direction: column;
+  align-items: center;
+}
+
+.chiquito {
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 
 
@@ -13,55 +50,8 @@ body {
 
 
 
-
-.navbar {
-    display: flex;
-    align-items: center; 
-    background-color: #BB1640;
-    padding: 20px; 
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-  }
+ 
   
-  .logo, .usuario, .barra-busqueda {
-    flex: 1; 
-    margin: 10px;
-  }
-  
-  .logo {
-    flex:   auto;
-  }
-  
-  .usuario {
-    flex:   auto;
-  }
-  
-  .barra-busqueda input[type="search"] {
-    width: 100%; 
-    padding: 5px;
-    margin: auto; 
-    border: 1px solid white;
-    border-radius: 7px;
-  }
-  
-  .menu {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    flex: 2;
-  }
-  
-  .menu li {
-    padding: 14px 20px;
-  }
-  
-  .menu li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
 
 
 
@@ -208,7 +198,7 @@ body {
 
 
 
-.cuartobanner {
+  .cuartobanner {
 
     background-color: #BB1640;
     height: 400PX;
