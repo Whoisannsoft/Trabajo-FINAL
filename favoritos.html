@@ -9,62 +9,68 @@
 <body>
     
     <section>
-        <nav class="navbar">
-
-            <div class="logo">
-                <a href="#"><img src="/imagenes Generales/LogoBlanco.png" alt="Logo"></a>
-              </div>
-
-            <ul class="menu">
-                <li><a href="/main.html">Inicio</a></li>
-                <li><a href="main.html">Contacto</a></li>
-                <li><a href="main.html">Sobre Nosotros</a></li>
-                <li><a href="Galeria.html">Galeria</a></li>
-                <li><a href="/favoritos.html">Favoritos</a></li>
-            </ul>
-
-            <div class="barra-busqueda">
-                <input type="search" placeholder="Buscar...">
-              </div>
-
-            <div class="fotousuario">
-                <a href="#"><img src="/imagenes Generales/Usuario.png" alt="Usuario"></a>
-              </div>
-          </nav>
-        </section>
-        <section>
-<div>
-    <h1>Mis Favoritos</h1>
-    <main>
-        <div id="favoritos-lista">
-            <!-- Aquí se mostrarán los elementos favoritos -->
+        <div class="barra-navegacion">
+            <img src="./imagenes Generales/LogoBlanco.png" alt="Logo Blanco y negro">
+            <a href="main.html">Inicio</a>
+            <a href="Galeria.html">Galeria</a>
+            <a href="main.html#contacto">Contactanos</a>
+            <a href="favoritos.html">Favoritos</a>
+            <a form action="Barradebusqueda" method="get">
+                <input type="text" name="Barradebusqueda" placeholder="Buscar...">
+                </form>
+                <a href="perfil.html"><img src="./imagenes Generales/Usuario.png" alt="bolitausuario"></a>
         </div>
-        <form id="formulario-favoritos">
-            <input type="text" id="input-favorito" placeholder="Agregar un favorito...">
-            <button type="submit">Agregar</button>
-        </form>
-    </main>
-</div>
-</section>
-
-<footer>
-</div>
-</section>
-<div class="redes Sociales">
-    <h1>Contactanos</h1>
-    <a> <img src="./logos Contacto/facebook.png" alt="Facebook">Wiki_hazbinhotel </a>
-    <a> <img src="./logos Contacto/instagram.png" alt="Instagram">@Wiki_hazbinhotel </a>
-    <a> <img src="./logos Contacto/twitter.png" alt="Twitter">@Wiki_hazbinhotel</a>
+        
+        <section>
+<div class="titulofav">
+    <h1> Mis Favoritos</h1>
+       
+        </div>
 
 
-
-    <div>
-        <a> <img src="./logos Contacto/email.png" alt="email">wikihazbinhotel@gmail.com</a>
-        <a> <img src="./logos Contacto/what.png" alt="whatsapp">+68 78414889</a>
-        <a> <img src="./logos Contacto/what.png" alt="telefono">+68 78414889</a>
-    </div>
-</footer>
-
-
+        <section id="contacto">
+            <div class="cuartobanner">
+            
+                <div class="contenedorcont">
+                    <div class="titulocontacto">
+                        <h1 class="titulocont"> CONTACTANOS! </h1>
+                    </div>
+                </div>
+            
+            <div class="contact1">
+                <div class="cajaicono">
+                    <button href="https://www.instagram.com/hazbinhotel/" class="botonIG"><image class="icono" src="logos Contacto/twitter.png"></image>
+                    <h4>@Wiki_hazbinhotel</h4></button>
+                </div>
+            
+                <div class="cajaicono">
+                    <button type="button" onclick="window.open ('https://www.instagram.com/hazbinhotel/')" class="botonIG"><image class="icono" src="/logos Contacto/instagram.png"></image>
+                    <h4> @Hazbinhotel</h4></button>
+                </div>
+            
+                <div class="cajaicono">
+                    <button type="button" onclick="window.open ('https://www.instagram.com/hazbinhotel/')" class="botonIG"><image class="icono" src="logos Contacto/facebook.png"></image>
+                    <h4> Hazbinhotel</h4></button>
+                </div>
+            
+            </div>
+            
+            <div class="contact2">
+                <div class="cajaemail">
+                    <button href="https://www.instagram.com/hazbinhotel/" class="boticonom"><image class="icono" src="/logos Contacto/email.png"></image>
+                    <h4>wikihazbinhotel@gmail.com</h4></button>
+                </div>
+            
+                <div class="cajaicono">
+                    <button class="botonIG"><image class="icono" src="/logos Contacto/llamada-telefonica.png"></image>
+                    <h4> +68 78414889</h4></button>
+                </div>
+            
+            </div>
+            
+            </div>
+    
+        </section>
+        
 </body>
 </html>
