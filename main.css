@@ -198,7 +198,7 @@ body {
 
 
 
-  .cuartobanner {
+  .cuarto--banner {
 
     background-color: #BB1640;
     height: 400PX;
@@ -281,7 +281,7 @@ body {
     align-items: center;
     height: 100px;
     width: 300px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     border-color: transparent;
     color: white;
@@ -304,7 +304,7 @@ body {
     align-items: center;
     height: 100px;
     width: 500px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
   }
   
@@ -316,11 +316,11 @@ body {
     align-items: center;
     height: 100px;
     width: 450px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     border-color: transparent;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
   
   }
