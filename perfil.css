@@ -75,7 +75,8 @@ button {
 .tarjeta .contenedor-botones {
     display: flex;
     justify-content: center; 
-    width: 100%; 
+    width: 100%;
+ 
 }
 
 
@@ -95,7 +96,7 @@ button {
 
 .contenedor.chiquito form div {
     margin-bottom: 10px;
-    margin: 49px;
+    margin: 50px;
 }
 
         .contenedor {
