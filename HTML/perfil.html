@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="/CSS/perfil.css">
+
+</head>
+<body>
+    <section>
+        <div class="barra-navegacion">
+            <img src="./imagenes Generales/LogoBlanco.png" alt="Logo Blanco y negro">
+            <a href="main.html">Inicio</a>
+            <a href="Galeria.html">Galeria</a>
+            <a href="main.html#contacto">Contactanos</a>
+            <a href="favoritos.html">Favoritos</a>
+            <a form action="Barradebusqueda" method="get">
+                <input type="text" name="Barradebusqueda" placeholder="Buscar...">
+                </form>
+                <a href="perfil.html"><img src="./imagenes Generales/Usuario.png" alt="bolitausuario"></a>
+        </div>
+</section>
+<section class="tarjeta">
+    <div class="contenedor grande">
+        <img src="./imagenes perfil/banner.png" alt="imagen banner">
+        <img src="./imagenes perfil/user.png" alt="imagen user" class="imagen-libre">
+    </div>
+
+    <div class="contenedor chiquito">
+        <form action="/rutaDelServidorParaProcesarCambios" method="POST">
+            <div>
+                <label for="nombreCompleto">Nombre Completo:</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto" required>
+            </div>
+            <div>
+                <label for="correoElectronico">Correo Electrónico:</label>
+                <input type="email" id="correoElectronico" name="correoElectronico" required>
+            </div>
+            <div>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <div class="contenedor-botones">
+                <button type="button">Editar información</button>
+                <button type="button">Confirmar</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+ <section id="contacto">
+        <div class="cuartobanner">
+        
+            <div class="contenedorcont">
+                <div class="titulocontacto">
+                    <h1 class="titulocont"> CONTACTANOS! </h1>
+                </div>
+            </div>
+        
+        <div class="contact1">
+            <div class="cajaicono">
+                <button href="https://www.instagram.com/hazbinhotel/" class="botonIG"><image class="icono" src="logos Contacto/twitter.png"></image>
+                <h4>@Wiki_hazbinhotel</h4></button>
+            </div>
+        
+            <div class="cajaicono">
+                <button type="button" onclick="window.open ('https://www.instagram.com/hazbinhotel/')" class="botonIG"><image class="icono" src="/logos Contacto/instagram.png"></image>
+                <h4> @Hazbinhotel</h4></button>
+            </div>
+        
+            <div class="cajaicono">
+                <button type="button" onclick="window.open ('https://www.instagram.com/hazbinhotel/')" class="botonIG"><image class="icono" src="logos Contacto/facebook.png"></image>
+                <h4> Hazbinhotel</h4></button>
+            </div>
+        
+        </div>
+        
+        <div class="contact2">
+            <div class="cajaemail">
+                <button href="https://www.instagram.com/hazbinhotel/" class="boticonom"><image class="icono" src="/logos Contacto/email.png"></image>
+                <h4>wikihazbinhotel@gmail.com</h4></button>
+            </div>
+        
+            <div class="cajaicono">
+                <button class="botonIG"><image class="icono" src="/logos Contacto/llamada-telefonica.png"></image>
+                <h4> +68 78414889</h4></button>
+            </div>
+        
+        </div>
+        
+        </div>
+
+    </section>
+
+</body>
+
+</html>
