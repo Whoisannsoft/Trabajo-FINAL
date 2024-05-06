@@ -206,18 +206,19 @@
       .item-1 {
         z-index: 2;
         opacity: 1;
-        background: url(Rectangle\ 32.png);
+        background: url(/img\ carrusel/Rectangle\ 34.png);
         background-size: cover;
       }
       .item-2 {
-        background: url(/Rectangle\ 34.png);
+        background: url(/img\ carrusel/Rectangle\ 32.png);
         background-size: cover;
       }
       .item-3 {
-        background: url(/Rectangle\ 35.png);
+        background: url(/img\ carrusel/Rectangle\ 35.png);
         background-size: cover;
       }
-      
+
+
       *:target ~ .item-1{
         opacity: 0;
       }
@@ -229,6 +230,7 @@
         z-index: 3;
         opacity: 1;
     } 
+
     
     
 
