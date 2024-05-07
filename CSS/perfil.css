@@ -120,6 +120,9 @@ button {
           border: 1px solid #ccc;
           border-radius: 4px;
           box-sizing: border-box;
+          color: #555;
+          background-color: #f5f5f5;
+          border-color: #ccc;
       }
       
 
