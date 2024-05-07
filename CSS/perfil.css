@@ -5,6 +5,10 @@ body {
     padding: 0;
     background-color: #1F0329;
 }
+.perfilicono{
+  width: 50px; 
+  height: 50px;
+}
 
 .barra-navegacion {
     background-color: #BB1640;
@@ -127,8 +131,8 @@ button {
 .imagen-libre {
     width: 8%;
     position: absolute;
-    top: 260px;
-    left: 490px;
+    top: 250px;
+    left: 570px;
 }
 
 
