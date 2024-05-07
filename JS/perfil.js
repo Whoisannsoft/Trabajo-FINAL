@@ -1,19 +1,20 @@
+const nombreInput = document.getElementById('nombreCompleto');
+const emailInput = document.getElementById('correoElectronico');
+const passwordInput = document.getElementById('contrasena');    
+ // Cargar información del usuario activo
+ const activeUser = JSON.parse(sessionStorage.getItem('activeUser'));
+ console.log(activeUser);
+ if (activeUser) {
+     nombreInput.value = activeUser.username || '';
+     emailInput.value = activeUser.email || '';
+     passwordInput.value = activeUser.password || ''; 
+ }
+
 document.addEventListener('DOMContentLoaded', function() {
-    const nombreInput = document.getElementById('nombreCompleto');
-    const emailInput = document.getElementById('correoElectronico');
-    const passwordInput = document.getElementById('contrasena');
     const btnEditar = document.getElementById('btnEditar');
 
     const btnConfirmar = document.getElementById('btnConfirmar'); 
     const logoutButton = document.getElementById('logoutButton');
-
-    // Cargar información del usuario activo
-    const activeUser = JSON.parse(sessionStorage.getItem('activeUser'));
-    if (activeUser) {
-        nombreInput.value = activeUser.username || '';
-        emailInput.value = activeUser.email || '';
-        passwordInput.value = activeUser.password || ''; 
-    }
 
     
     if (btnEditar) {

@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         localStorage.setItem('user_' + username, JSON.stringify(user));
-
+        sessionStorage.setItem('activeUser', JSON.stringify(user));
         
         window.location.href = 'main.html'; 
     });
