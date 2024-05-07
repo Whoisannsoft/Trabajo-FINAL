@@ -52,7 +52,7 @@ class Personaje {
 
 const contenedorPersonajes = document.getElementById("contenedor-personajes");
 var personajes = []
-fetch('/JS/Personajes.json').then(response => {
+fetch('https://raw.githubusercontent.com/Whoisannsoft/Trabajo-FINAL/main/JS/Personajes.json').then(response => {
     return response.json();
 })
 .then(jsonData => {
