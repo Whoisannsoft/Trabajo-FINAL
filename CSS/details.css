@@ -1,0 +1,68 @@
+/* Estilos base */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #1F0329; /* Color de fondo de la página */
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion {
+    background-color: #BB1640; /* Fondo de la barra de navegación */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.barra-navegacion a, .barra-navegacion form {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.contenedor-personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los personajes */
+    margin-top: 20px;
+}
+
+/* Estilos para cada personaje */
+.personaje {
+    background-color: #BB1640; /* Fondo de cada tarjeta de personaje */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 50%; /* Ancho del contenedor del personaje */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+}
+
+.personaje img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.nombre-favorito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nombre-personaje {
+    font-size: 24px; /* Tamaño grande para el nombre */
+    color: #FFF; /* Texto blanco */
+}
+
+.descripcion-personaje {
+    font-size: 16px; /* Tamaño de texto para la descripción */
+    color: #FFF; /* Texto blanco */
+    margin-top: 5px; 
+}
+
+.estrella {
+    cursor: pointer;
+    width: 24px; 
+}
+
