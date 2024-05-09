@@ -1,68 +1,73 @@
-/* Estilos base */
+
+
 body {
-    font-family: 'Arial', sans-serif;
-    color: #ffffff;
-    background-color: #1F0329; /* Color de fondo de la página */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+    background-color: #1F0329;
+    color: white;
+  }
 
-.barra-navegacion {
-    background-color: #BB1640; /* Fondo de la barra de navegación */
+
+  .perfilicono{
+    width: 50px; 
+    height: 50px;
+  }
+  
+  .barra-navegacion {
+    background-color: #BB1640;
+    color: white;
     display: flex;
     align-items: center;
-    padding: 10px 20px;
-    justify-content: space-between;
-}
-
-.barra-navegacion a, .barra-navegacion form {
+    padding: 10px;
+    margin-left: auto;
+  }
+  
+  .barra-navegacion a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-}
+    margin: 0 10px;
+    margin-left: 90px;
+  }
+  
+  .barra-navegacion input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+.cntenedor {
+    align-items: center;
+    margin: 0 auto;
+  }
 
-.contenedor-personajes {
+  .card {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar los personajes */
-    margin-top: 20px;
-}
-
-/* Estilos para cada personaje */
-.personaje {
-    background-color: #BB1640; /* Fondo de cada tarjeta de personaje */
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px 0;
-    width: 50%; /* Ancho del contenedor del personaje */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
-}
-
-.personaje img {
-    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
-    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
-}
-
-.nombre-favorito {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    background-color: #410656;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 1000px;
+  }
+
+  .card-content {
+    padding: 20px;
 }
 
-.nombre-personaje {
-    font-size: 24px; /* Tamaño grande para el nombre */
-    color: #FFF; /* Texto blanco */
+#character-name {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.descripcion-personaje {
-    font-size: 16px; /* Tamaño de texto para la descripción */
-    color: #FFF; /* Texto blanco */
-    margin-top: 5px; 
-}
-
-.estrella {
-    cursor: pointer;
-    width: 24px; 
-}
-
+#character-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word; /* Esto mejora la justificación para evitar espacios excesivos entre palabras */
+    }
+  
+  
+ 
