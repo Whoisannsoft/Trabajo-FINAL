@@ -4,27 +4,29 @@ const passwordInput = document.getElementById('contrasena');
 // Cargar información del usuario activo
 const activeUser = JSON.parse(sessionStorage.getItem('activeUser'));
 console.log(activeUser);
+
+
 if (activeUser) {
     nombreInput.value = activeUser.username || '';
     emailInput.value = activeUser.email || '';
     passwordInput.value = activeUser.password || ''; 
+
+    nombreInput.disabled = true;
+    emailInput.disabled = true;
+    passwordInput.disabled = true;
+} else {
+    console.error('No hay un usuario activo. Por favor inicie sesión.');
 }
-nombreInput.disabled = true;
-emailInput.disabled = true;
-passwordInput.disabled = true;
 
 const btnEditar = document.getElementById('btnEditar');
 const btnConfirmar = document.getElementById('btnConfirmar'); 
-const logoutButton = document.getElementById('logoutButton');
-
+const logoutButton = document.getElementById('btnsalir');  
 
 btnEditar.addEventListener('click', function() {
     nombreInput.disabled = false;
     emailInput.disabled = false;
     passwordInput.disabled = false;
 });
-
-
 
 if (btnConfirmar) {
     btnConfirmar.addEventListener('click', function(e) {
@@ -39,7 +41,6 @@ if (btnConfirmar) {
         localStorage.setItem('user_' + updatedUser.username, JSON.stringify(updatedUser));
         sessionStorage.setItem('activeUser', JSON.stringify(updatedUser));
         
-        
         nombreInput.disabled = true;
         emailInput.disabled = true;
         passwordInput.disabled = true;
@@ -49,8 +50,12 @@ if (btnConfirmar) {
 
 if (logoutButton) {
     logoutButton.addEventListener('click', function() {
-        sessionStorage.removeItem('activeUser');
-        window.location.href = 'login.html';
+        if (sessionStorage.getItem('activeUser')) {
+            sessionStorage.removeItem('activeUser');
+            window.location.href = 'login.html';
+        } else {
+            console.error('No se puede cerrar sesión sin un usuario activo.');
+        }
     });
 } else {
     console.error('El botón de cerrar sesión no se encontró en la página.');

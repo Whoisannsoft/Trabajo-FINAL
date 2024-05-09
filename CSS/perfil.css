@@ -76,10 +76,20 @@ button {
    
 }
 
-.tarjeta .contenedor-botones {
-    display: flex;
+.tarjeta {
+
+  display: flex;
     justify-content: center; 
-    width: 100%; 
+    width: 50%; 
+}
+    
+
+.contenedor-botones {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    margin-top: 20px;
+   
 }
 
 
