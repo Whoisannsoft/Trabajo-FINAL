@@ -41,19 +41,27 @@ class Personaje {
             <h1>${this.name}</h1>
             `;
 
-        const personajeimg = `
+      const personajeimg = `
                 <img src="${this.image}" alt="${this.name}">
             `;
       const personajedes = `
                 <p>${this.description}</p>
             `;
 
-        window.location.href = "detallePersonaje.html" + "?name=" + this.name + "&image=" + this.image + "&description=" + this.description;
-        const name = urlParams.get('name');
-console.log(name);
-        window.document.getElementById("character-name").innerHTML = name;
-        window.document.getElementById("card-image").innerHTML = personajeimg;
-        window.document.getElementById("character-description").innerHTML = personajedes;
+      window.location.href =
+        "detallePersonaje.html" +
+        "?name=" +
+        this.name +
+        "&image=" +
+        this.image +
+        "&description=" +
+        this.description;
+      const name = urlParams.get("name");
+      console.log(name);
+      window.document.getElementById("character-name").innerHTML = name;
+      window.document.getElementById("card-image").innerHTML = personajeimg;
+      window.document.getElementById("character-description").innerHTML =
+        personajedes;
     });
 
     return personajeDiv;
@@ -74,12 +82,22 @@ console.log(name);
   }
 }
 
+const search = document.getElementById("searchBar");
+const urlParams = new URLSearchParams(window.location.search);
+search.addEventListener("keyup", () => {
+  setTimeout(() => {
+    window.location.href = "Galeria.html" + "?search=" + search.value;
+  }, 1000);
+});
+
+search.value = urlParams.get("search") || "";
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const contenedorPersonajes = document.getElementById("contenedor-personajes");
+  const seachFilter = urlParams.get("search") || "";
 
-  fetch(
-    "https://raw.githubusercontent.com/Whoisannsoft/Trabajo-FINAL/main/JS/Personajes.json"
-  )
+  fetch("https://retoolapi.dev/k6Flgn/hazbin_hotel")
     .then((response) => response.json())
     .then((jsonData) => {
       let activeUser = sessionStorage.getItem("activeUser") || "defaultUser";
@@ -95,7 +113,13 @@ document.addEventListener("DOMContentLoaded", function () {
           isFavorite
         );
         const personajeHTML = personaje.createCharacterHTML();
-        contenedorPersonajes.appendChild(personajeHTML);
+
+        if (
+          personajeJson.name.toLowerCase().includes(seachFilter.toLowerCase())
+        ) {
+          console.log(personajeJson.name);
+          contenedorPersonajes.appendChild(personajeHTML);
+        }
       });
     })
     .catch((error) => {
